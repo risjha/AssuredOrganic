@@ -1,0 +1,133 @@
+body {
+    font-family: "Lato", sans-serif;
+    background:url("file:///home/komal/Documents/AssuredOrganic/3.jpeg");
+      background-size:cover;
+  
+    /* krypton */
+    box-sizing: border-box;
+    /* krypton */
+  }
+  .sidebar {
+    height: 30%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: hotpink;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: red;
+  }
+  .col-lg-0 a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .col-lg-0 a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: deeppink;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .mapouter
+    {
+      /* krypton */
+      /* position:relative; */
+      /* text-align:right; */
+      /* height:300px; */
+      /* width:400px; */
+      /* krypton */
+    }
+    .gmap_canvas
+    {
+      overflow:hidden;
+      background:none!important;
+      height:500px;
+      width:600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  .row
+  {
+     display: flex;
+     width: 100%;
+  }
+  .row::after
+  {
+    content: "";
+   clear: both;
+   display: table;
+  }
+  .container{
+    border:1px solid black;
+    /* krypton */
+      display: flex;
+      flex-direction: column;
+      align-items: marginheight;
+    /* krypton */
+    margin:0 auto;
+    width:1000px;
+  
+  }
